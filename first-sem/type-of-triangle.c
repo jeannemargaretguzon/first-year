@@ -1,3 +1,6 @@
+
+
+
 #include<stdio.h>
 #include<conio.h>
 void TRIANGLE (int L1, int L2, int L3);
