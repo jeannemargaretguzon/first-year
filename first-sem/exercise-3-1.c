@@ -8,27 +8,27 @@ Design a program that will calculate and display the volume of a box whose dimen
 
 int main()    
 {
-    float r_length, r_width, r_height, r_volume;
+    float rectangle_length, rectangle_width, rectangle_height, rectangle_volume;
     printf("Enter the dimensions of the rectangular box.\n");    
 	
 	printf("\tEnter the length:\t");
-    scanf("%f", &r_length);
+    scanf("%f", &rectangle_length);
     
 	printf("\n\tEnter the height:\t");
-    scanf("%f", &r_height);
+    scanf("%f", &rectangle_height);
 	
 	printf("\n\tEnter the width:\t");
-    scanf("%f", &r_width);
+    scanf("%f", &rectangle_width);
     
-    r_volume = r_width * r_length * r_height;    
+    rectangle_volume = rectangle_width * rectangle_length * rectangle_height;    
     
     printf("\nCalculating the volume of a rectangular box......\n");
     printf("\nPress any key to continue......");
     getch();
 	system("cls");
 	
-    printf("Length of the rectangle box: %.2f", r_length);
-    printf("\nWidth of the rectangle box: %.2f", r_width);
-    printf("\nHeight of the rectangle box: %.2f", r_height);
-    printf("\n\tVolume of the rectangle box: %.2f\n", r_volume);
+    printf("Length of the rectangle box: %.2f", rectangle_length);
+    printf("\nWidth of the rectangle box: %.2f", rectangle_width);
+    printf("\nHeight of the rectangle box: %.2f", rectangle_height);
+    printf("\n\tVolume of the rectangle box: %.2f\n", rectangle_volume);
 }
