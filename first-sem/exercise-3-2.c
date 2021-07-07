@@ -15,7 +15,7 @@ int main()
     
     minute = hour * 60;     
     
-    printf("\nCalculating the volume of a rectangular box......\n");
+    printf("\nCalculating the hours to minutes......\n");
 	
-    printf("\t%d is equal to %d minutes\n", hour, minute);
+    printf("\t%d hours is equal to %d minutes\n", hour, minute);
 }

@@ -12,12 +12,9 @@ int main()  {
 
     printf("Enter the weight of the person on Earth (in pounds).\t");
     scanf("%f", &earth_w);
-
-    mars_w = (earth_w * 0.45359237) / 9.81;
-    jupiter_w = earth_w * 24.79;
-
-    mars_w = mars_w / 0.45359237;
-    jupiter_w = jupiter_w / 0.45359237;
+    
+    mars_weight = (earth_weight / 9.81) * 3.711;
+    jupiter_weight = (earth_weight / 9.81) * 24.79;
 
     system("cls");
 
