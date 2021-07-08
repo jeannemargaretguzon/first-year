@@ -12,13 +12,13 @@ int main()    {
     float price, total_price;
     int weight;
 
-    printf("What type of candy will you buy?");
+    printf("What type of candy you want to buy?");
     printf("\n1. Candy A\tPHP 35.00 per kilogram");
     printf("\n2. Candy B\tPHP 45.00 per kilogram");
     printf("\n3. Candy C\tPHP 56.00 per kilogram");
     printf("\n4. Candy D\tPHP 57.50 per kilogram\t");
     scanf("%d", &a);
-    printf("\nHow many kilograms do want to buy?\t");
+    printf("\nHow many kilograms do you want to buy?\t");
     scanf("%d", &weight);
     switch (a)  {
     case 1:
