@@ -12,9 +12,9 @@ int main()
 {
 	int day,sum, gift;
 	
-	for (day = 0, gift = 1; day<12; day++,++gift)	{
+	for (day = 1, gift = 1; day<12; day++,++gift)	{
 		gift = gift + day;
-	printf("She received %d gifts in the %d day of christmas. \n",gift,day+1);
+	printf("She received %d gifts in the %d day of christmas. \n",gift,day);
 	sum += gift;
 	}		
 	
